@@ -1,0 +1,46 @@
+<!--
+    <textarea>
+        * Elemento de texto com mais de 1 linha
+        * Muito utilizado em textos maiores
+-->
+
+<form action="confirm,html" method="post">
+
+    <textarea></textarea>
+
+    <label for="message">Mensagem</label>
+    <textarea
+    id="message"
+    name="message"
+    cols="20"
+    rows="8"
+    minlength="10"
+    maxlength="100"
+    wrap="soft"
+    ></textarea>
+
+    <!--
+        optgroup
+
+        * Elemento utilizado para agrupar uma sequência de
+        seleções ou opções
+    -->
+
+    <br><br>
+    <label for="">escolha seu professor</label>
+    <br>
+    <select name="prof" multiple>
+        <optgroup label="Professores">
+            <option value="leo">leo</option>
+            <option value="joa">joa</option>
+            <option value="sergio">sergio</option>
+        </optgroup>
+        <optgroup label="Cursos">
+            <option value="frontend">front-end</option>
+            <option value="backend">back-end</option>
+            <option value="design">design</option>
+            <option value="devops">devops</option>
+        </optgroup>
+    </select>
+
+</form>
